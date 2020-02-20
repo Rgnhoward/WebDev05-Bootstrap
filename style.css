@@ -1,0 +1,63 @@
+div#header{
+	position:fixed;
+	text-align: center;
+	top:0;
+	width:100%;
+	height:50px;
+	font-family: Helvetica;
+	color: white;
+	background-color: blue;
+	z-index:1;
+}
+
+.jumbotron {
+	 
+	
+	display: flex;
+	align-items: center;
+	margin: 10px;;
+}
+div#container{
+	align-content: center;
+
+}
+div#image-container{
+	display:inline-block;
+	margin: 10px;
+}
+h1{
+	text-align: center;
+	font-type:  Helvetica;
+	font-style: italic;
+}
+h3{
+	font-size: 16pt;
+	font-style: italic;
+	font-type: bold;
+	text-align: center;
+}
+div#footer{
+	position:sticky;
+	display: inline;
+	height: 10px;
+	width: 100%;
+	font-size: 10pt;
+	text-align: center;
+	font-family: Helvetica;
+	font-style: italic;
+	padding-bottom: 1px;
+	border-bottom: 0px;
+	margin-bottom: 1px;
+	color: red;
+}
+div.list-item-group{
+	display: block;
+	margin: 10px;
+}
+
+p#contentBox{
+	font-size: 10pt;
+	height: 15px;
+	width: auto;
+	padding:5px;
+}
